@@ -42,6 +42,8 @@ var board = []
 
 var tile_remaining = 100;
 
+var score = "";
+
 
 $(document).ready(function () {
     generateTileRack();
@@ -85,7 +87,7 @@ function cal_score(b) {
   }
   tile_remaining --;
   // update the score
-  document.getElementById("scoreBox").innerHTML = "Score: " + tile_remaining;
+  document.getElementById("scoreBox").innerHTML = "Score: " + score;
 }
 
 // return a random letter and update the amount of the pieces array
