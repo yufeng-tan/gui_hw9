@@ -1,0 +1,79 @@
+/*
+  Name: Yufeng Tan
+  E-mail: Yufeng_Tan@student.uml.edu
+    Assignment: hw9, Implementing a Bit of Scrabble with Drag-and-Drop
+                The purposes of this assignment are to give you additional experience working with the jQuery UI
+                and to pull together much of what we’ve been doing throughout the semester.
+*/
+
+
+body {
+  font-family: Arial;
+  background-image: url("giphy.gif");
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: -3px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+}
+
+#tile-rack {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+}
+
+
+.button {
+  text-align: center;
+}
+
+.tile_img {
+  position: relative;
+  top: -150px;
+  left: 29%;
+  width: 85px;
+  height: auto;
+  padding: 3px;
+}
+
+#scoreBox {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+}
+
+#new_button {
+  margin-top: -150px;
+  background-color: #db0437;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 20px;
+
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid grey;
+  border-collapse: collapse;
+}
+
+footer {
+  text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding-bottom: 20px;
+}

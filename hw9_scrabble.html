@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Name: Yufeng Tan
+  E-mail: Yufeng_Tan@student.uml.edu
+    Assignment: hw9, Implementing a Bit of Scrabble with Drag-and-Drop
+                The purposes of this assignment are to give you additional experience working with the jQuery UI
+                and to pull together much of what we’ve been doing throughout the semester.
+-->
+
+<html>
+  <head>
+    <title>GUI I homework 8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hw9.css">
+    <!-- jquery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"></link>
+  </head>
+
+  <body>
+      <h1>Let's  play  Scrabble !</h1>
+      <h3>A simple Scabble game with a single row of Scrabble board</h3>
+
+      <!-- a table row to place the tiles-->
+      <table id="scrabble_table">
+        <tr>
+          <td><img id="block01" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+          <td><img id="block02" class="block" src="Scrabble_Tiles/double_letter.jpg"></td>
+          <td><img id="block03" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+          <td><img id="block04" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+          <td><img id="block05" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+          <td><img id="block06" class="block" src="Scrabble_Tiles/double_letter.jpg"></td>
+          <td><img id="block07" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+          <td><img id="block08" class="block" src="Scrabble_Tiles/blank.jpg"></td>
+        <tr>
+      </table>
+
+      <!-- the rack to hold the tiles-->
+      <img id="tile-rack" src="Scrabble_Tiles/scrabble-tile-holder-406774_640.png" alt="tile-rack">
+      <div id="tile_holder"></div>
+
+      <div class="button">
+        <button onclick="generateTileRack()" id="new_button">New Game</button>
+        <div id="scoreBox"></div>
+      </div>
+
+      <footer>
+          <h3>COMP4610 GUI I Assignment 9, Yufeng Tan, 2019</h3>
+          <a href="https://www.linkedin.com/in/yufengtan/"><h3>My linkedin profile</h3></a>
+      </footer>
+
+    <script src="hw9.js"></script>
+
+  </body>
+</html>

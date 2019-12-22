@@ -1,0 +1,10 @@
+Write up for HW9
+Yufeng Tan
+
+In this assignment, I have completed the following functionalities:
+--> The letters are selected randomly from the pieces based on a random number.
+--> The letter tiles can be dragged and dropped onto the target Scrabble squares
+--> Logically it should identify which letter tile is dropped onto which square since I got stuck in the drop event function, I have difficulty to test this out.
+--> The board contains bonus squres
+--> Since I got stuck in the last step, I didn't implement the score correctly.
+--> The board can be clear by click on a new game button.
